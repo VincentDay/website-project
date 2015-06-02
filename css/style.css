@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#logo { /* select element with id="logo" */
+  
+}
+
+/* Descendent Selector */
+
+
+
+.button {
+    display: inline-block;
+    background-color: transparent;
+    font-family: "Quicksand",sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: #FFF;
+    margin-left: 10%;
+}
+
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid #CCC;
+    background-color: #FFF;
+   
+}
+
+#nav_bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    background: transparent url("../images/header-fade.gif") repeat scroll 0% 0%;
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+}
+
+#nav_bar nav a {
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #000;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font: 20px "Trebuchet MS",Arial,sans-serif;
+}
+
+#nav_bar nav a div {
+    margin: 10% 0px;
+}
+
+.heightfix::before {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+nav, section, summary {
+    display: block;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0px auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    box-sizing: border-box;
+}
+
+#buffer {
+    height: 80px;
+}
+
+.col-3 {
+    float: left;
+    width: 94%;
+    padding: 0px 3%;
+    margin-left: 0px;
+}
+
+p {
+    margin: 1.4em 0px;
+    font-family: Garamond;
+}
+
+.shadow {
+    box-shadow: 0px 2px 5px #333;
+}
