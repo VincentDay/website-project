@@ -99,6 +99,13 @@ nav, section, summary {
     margin-left: 0px;
 }
 
+
+.col-1 {
+    float: left;
+    width: 32%;
+}
+
+
 p {
     margin: 1.4em 0px;
     font-family: Garamond;
@@ -106,4 +113,13 @@ p {
 
 .shadow {
     box-shadow: 0px 2px 5px #333;
+}
+
+img, video, audio {
+  max-width: 100%;
+}
+
+#background {
+    background-color: orange;
+    clear: left;
 }
