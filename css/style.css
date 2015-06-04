@@ -27,13 +27,14 @@
 
 
 #header {
+    padding: 30px;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
     z-index: 2;
     border-bottom: 1px solid #CCC;
-    background-color: #FFF;
+    background-color: white;
    
 }
 
@@ -92,18 +93,15 @@ nav, section, summary {
     height: 80px;
 }
 
-.col-3 {
-    float: left;
-    width: 94%;
-    padding: 0px 3%;
-    margin-left: 0px;
-}
-
-
 .col-1 {
     float: left;
     width: 32%;
-}
+  }
+
+  .col-2 {
+    float: left;
+    width: 94%;
+  }
 
 
 p {
@@ -112,7 +110,11 @@ p {
 }
 
 .shadow {
+    padding: 30px;
     box-shadow: 0px 2px 5px #333;
+    background: white;
+    margin: 40px 0;
+  
 }
 
 img, video, audio {
@@ -123,3 +125,17 @@ img, video, audio {
     background-color: orange;
     clear: left;
 }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
