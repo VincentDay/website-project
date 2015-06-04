@@ -95,13 +95,15 @@ nav, section, summary {
 
 .col-1 {
     float: left;
-    width: 22%;
+    width: 28%;
+    padding: 20px 10px;
+    
     
   }
 
   .col-2 {
     float: left;
-    width: 94%;
+    width: 66%;
   }
 
 [class*="col-"] {
